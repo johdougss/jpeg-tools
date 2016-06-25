@@ -7,7 +7,7 @@
       "email": "johdougss@gmail.com"
     }
   ],
-  "minimum-stability": "1.0-dev",
+  "minimum-stability": "dev-master",
   "prefer-stable": true,
   "require": {
     "phpunit/phpunit": "^5.4"
