@@ -10,8 +10,7 @@ class JpegToolsTest extends TestCase
 
         $in = __DIR__ . '/fixture/in.jpg';
         $out = __DIR__ . '/fixture/out.jpg';
-        $r = $jpegUtil->recompress($in, $out);
-
-        print_r($r);
+        $result = $jpegUtil->recompress($in, $out);
+        print_r($result);
     }
 }

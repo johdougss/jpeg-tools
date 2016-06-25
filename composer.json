@@ -1,6 +1,6 @@
 {
-  "name": "johdougss/jpeg-recompress",
-  "description": "Utilities for archiving JPEGs for long term storage.",
+  "name": "johdougss/jpeg-tools",
+  "description": "Tools JPEGs",
   "authors": [
     {
       "name": "Johnathan Douglas",
