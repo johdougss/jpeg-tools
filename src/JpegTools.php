@@ -1,6 +1,7 @@
 <?php
 namespace JpegTools;
 
+
 class JpegTools
 {
     const PATH_BIN = __DIR__ . '/../bin';
@@ -10,6 +11,7 @@ class JpegTools
      * @param $out
      * @param array $options
      * @return string
+     * @see https://github.com/danielgtaylor/jpeg-archive
      */
     public function recompress($in, $out, $options = ['-m smallfry'])
     {
