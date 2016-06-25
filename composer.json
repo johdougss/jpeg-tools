@@ -1,0 +1,18 @@
+{
+  "name": "johdougss/jpeg-recompress",
+  "description": "Utilities for archiving JPEGs for long term storage.",
+  "authors": [
+    {
+      "name": "Johnathan Douglas",
+      "email": "johdougss@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "JpegTools\\": "src"
+    }
+  }
+}
