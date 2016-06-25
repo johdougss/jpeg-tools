@@ -1,20 +1,22 @@
 {
   "name": "johdougss/jpeg-tools",
   "description": "Tools JPEGs",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Johnathan Douglas",
       "email": "johdougss@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require-dev": {
     "phpunit/phpunit": "^5.4"
   },
   "autoload": {
     "psr-4": {
-      "JpegTools\\": "src"
+      "JpegTools\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
